@@ -1,0 +1,57 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "io.github.stacklok": {
+        "https://tap.giving/mcp": {
+          "custom_metadata": {
+            "author": "Tap.Giving",
+            "homepage": "https://tap.giving",
+            "license": "MIT"
+          },
+          "overview": "## NFC Tap Builder by Tap.Giving\n\nThe NFC Tap Builder MCP server from Tap.Giving lets AI assistants design and order custom NFC tap discs for organizations, including churches, nonprofits, restaurants, coffee shops, and local businesses. Keyless tools cover discovery, product facts, pricing, the artwork specification, and quotes. Order questions are keyless and artwork submission is key-optional; order placement, order status, and recaps require an organization API key. The server moves no money itself: it returns a hosted invoice link for a person to pay, and design approval stays human.",
+          "status": "Active",
+          "tags": [
+            "remote",
+            "nfc",
+            "ecommerce",
+            "fundraising",
+            "donations",
+            "design",
+            "orders"
+          ],
+          "tier": "Community",
+          "tools": [
+            "get_discovery",
+            "get_quote",
+            "get_product",
+            "get_artwork_spec",
+            "submit_artwork",
+            "start_order_intent",
+            "get_order_questions",
+            "get_recap",
+            "create_order",
+            "request_invoice",
+            "get_order_status",
+            "register_webhook"
+          ]
+        }
+      }
+    }
+  },
+  "description": "Design and order custom NFC tap discs for organizations via the NFC Tap Builder MCP server",
+  "name": "io.github.stacklok/tap-giving-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tap.giving/mcp"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/RyanShook/tap-giving-mcp"
+  },
+  "title": "NFC Tap Builder by Tap.Giving",
+  "version": "1.0.0",
+  "websiteUrl": "https://tap.giving"
+}
