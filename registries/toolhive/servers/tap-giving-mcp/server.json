@@ -49,7 +49,7 @@
   ],
   "repository": {
     "source": "github",
-    "url": "https://github.com/RyanShook/tap-giving-mcp"
+    "url": "https://github.com/Tap-Giving/tap-giving-mcp"
   },
   "title": "NFC Tap Builder by Tap.Giving",
   "version": "1.0.0",
